@@ -1,0 +1,56 @@
+.show-summary-popup {
+  position :sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(211, 185, 185, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.show-summary-content {
+  background-color: #817f7f;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 24px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 10px;
+}
+
+.summary-text {
+  font-size: 16px;
+  font-weight: 100;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+.booking-button{
+   background-color: rgb(196, 103, 37);
+   border-radius: 5px;
+}
+.summary-text{
+  color:white;
+}
+.heading{
+  margin: 1em 0 0.5em 0;
+	color: #93b518;
+	font-weight: normal;
+	font-family: 'Ultra', sans-serif;   
+	font-size: 28px;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-shadow: 0 2px rgb(42, 39, 36), 0 3px #777;
+}
+.text{
+  color: aliceblue;
+  text-decoration: none;
+   font-size: 1.1rem;
+   font-family:sans-serif;
+}
